@@ -38,42 +38,47 @@
             // 
             // txtNomeF2
             // 
-            this.txtNomeF2.Location = new System.Drawing.Point(90, 6);
+            this.txtNomeF2.Location = new System.Drawing.Point(68, 5);
+            this.txtNomeF2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNomeF2.Name = "txtNomeF2";
-            this.txtNomeF2.Size = new System.Drawing.Size(100, 22);
+            this.txtNomeF2.Size = new System.Drawing.Size(76, 20);
             this.txtNomeF2.TabIndex = 0;
             // 
             // txtCognomeF2
             // 
-            this.txtCognomeF2.Location = new System.Drawing.Point(90, 35);
+            this.txtCognomeF2.Location = new System.Drawing.Point(68, 28);
+            this.txtCognomeF2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCognomeF2.Name = "txtCognomeF2";
-            this.txtCognomeF2.Size = new System.Drawing.Size(100, 22);
+            this.txtCognomeF2.Size = new System.Drawing.Size(76, 20);
             this.txtCognomeF2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 17);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nome:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 38);
+            this.label2.Location = new System.Drawing.Point(9, 31);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 17);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Cognome:";
             // 
             // btnOk
             // 
             this.btnOk.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOk.Location = new System.Drawing.Point(15, 74);
+            this.btnOk.Location = new System.Drawing.Point(11, 60);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.Size = new System.Drawing.Size(56, 19);
             this.btnOk.TabIndex = 4;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -82,9 +87,10 @@
             // btnAnnulla
             // 
             this.btnAnnulla.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnAnnulla.Location = new System.Drawing.Point(115, 74);
+            this.btnAnnulla.Location = new System.Drawing.Point(86, 60);
+            this.btnAnnulla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAnnulla.Name = "btnAnnulla";
-            this.btnAnnulla.Size = new System.Drawing.Size(75, 23);
+            this.btnAnnulla.Size = new System.Drawing.Size(56, 19);
             this.btnAnnulla.TabIndex = 5;
             this.btnAnnulla.Text = "Annulla";
             this.btnAnnulla.UseVisualStyleBackColor = true;
@@ -92,17 +98,19 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(204, 108);
+            this.ClientSize = new System.Drawing.Size(153, 88);
             this.Controls.Add(this.btnAnnulla);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCognomeF2);
             this.Controls.Add(this.txtNomeF2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

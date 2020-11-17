@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP04_Classe_Singleton_Coda", "OOP04_Classe_Singleton_Coda\OOP04_Classe_Singleton_Coda.csproj", "{72593C7C-E606-45C5-B83C-A4040327A9A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72593C7C-E606-45C5-B83C-A4040327A9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72593C7C-E606-45C5-B83C-A4040327A9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72593C7C-E606-45C5-B83C-A4040327A9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72593C7C-E606-45C5-B83C-A4040327A9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D4D20A-A082-47E1-B82E-97A2C9C12519}
+	EndGlobalSection
+EndGlobal

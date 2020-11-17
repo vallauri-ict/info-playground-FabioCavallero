@@ -7,14 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace _04_Esercitazione_Form_e_Menù
 {
     public partial class Figlia : Form
     {
         TextBox txtForm1;
         TextBox txtACuiInviare;
-
         public Figlia(TextBox txtForm1)
         {
             InitializeComponent();
@@ -22,10 +20,13 @@ namespace _04_Esercitazione_Form_e_Menù
             txtFiglia.Text = this.txtForm1.Text;
             txtACuiInviare = txtForm1;
         }
-
         private void btnInviaAForm1_Click(object sender, EventArgs e)
         {
             txtACuiInviare.Text = txtFiglia.Text;
+        }
+        private void Figlia_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

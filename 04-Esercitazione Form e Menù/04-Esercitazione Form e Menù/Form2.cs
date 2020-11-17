@@ -8,29 +8,29 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace _04_Esercitazione_Form_e_Menù
 {
     public partial class Form2 : Form
     {
         public string nome;
         public string cognome;
-
         public Form2()
         {
             InitializeComponent();
         }
-
         private void btnOk_Click(object sender, EventArgs e)
         {
             nome = txtNomeF2.Text;
             cognome = txtCognomeF2.Text;
         }
-
         private void btnAnnulla_Click(object sender, EventArgs e)
         {
             nome = "";
             cognome = "";
+        }
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

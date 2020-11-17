@@ -34,16 +34,18 @@
             // 
             // txtFiglia
             // 
-            this.txtFiglia.Location = new System.Drawing.Point(13, 13);
+            this.txtFiglia.Location = new System.Drawing.Point(10, 11);
+            this.txtFiglia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFiglia.Name = "txtFiglia";
-            this.txtFiglia.Size = new System.Drawing.Size(171, 22);
+            this.txtFiglia.Size = new System.Drawing.Size(129, 20);
             this.txtFiglia.TabIndex = 0;
             // 
             // btnInviaAForm1
             // 
-            this.btnInviaAForm1.Location = new System.Drawing.Point(13, 42);
+            this.btnInviaAForm1.Location = new System.Drawing.Point(10, 34);
+            this.btnInviaAForm1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInviaAForm1.Name = "btnInviaAForm1";
-            this.btnInviaAForm1.Size = new System.Drawing.Size(171, 98);
+            this.btnInviaAForm1.Size = new System.Drawing.Size(128, 80);
             this.btnInviaAForm1.TabIndex = 1;
             this.btnInviaAForm1.Text = "Invia A Form1";
             this.btnInviaAForm1.UseVisualStyleBackColor = true;
@@ -51,13 +53,15 @@
             // 
             // Figlia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(196, 152);
+            this.ClientSize = new System.Drawing.Size(147, 124);
             this.Controls.Add(this.btnInviaAForm1);
             this.Controls.Add(this.txtFiglia);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Figlia";
             this.Text = "Figlia";
+            this.Load += new System.EventHandler(this.Figlia_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
