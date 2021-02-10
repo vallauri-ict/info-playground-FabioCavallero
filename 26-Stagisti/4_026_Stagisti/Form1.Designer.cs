@@ -57,57 +57,64 @@ namespace _4_026_Stagisti
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 14);
+            this.label1.Location = new System.Drawing.Point(19, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nome";
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(121, 11);
+            this.txtNome.Location = new System.Drawing.Point(91, 9);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(121, 22);
+            this.txtNome.Size = new System.Drawing.Size(92, 20);
             this.txtNome.TabIndex = 1;
             // 
             // txtCognome
             // 
-            this.txtCognome.Location = new System.Drawing.Point(121, 39);
+            this.txtCognome.Location = new System.Drawing.Point(91, 32);
+            this.txtCognome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCognome.Name = "txtCognome";
-            this.txtCognome.Size = new System.Drawing.Size(121, 22);
+            this.txtCognome.Size = new System.Drawing.Size(92, 20);
             this.txtCognome.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 42);
+            this.label2.Location = new System.Drawing.Point(19, 34);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cognome";
             // 
             // txtCitta
             // 
-            this.txtCitta.Location = new System.Drawing.Point(121, 67);
+            this.txtCitta.Location = new System.Drawing.Point(91, 54);
+            this.txtCitta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCitta.Name = "txtCitta";
-            this.txtCitta.Size = new System.Drawing.Size(121, 22);
+            this.txtCitta.Size = new System.Drawing.Size(92, 20);
             this.txtCitta.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 70);
+            this.label3.Location = new System.Drawing.Point(19, 57);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 17);
+            this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Città";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 98);
+            this.label4.Location = new System.Drawing.Point(19, 80);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Classe";
             // 
@@ -120,9 +127,10 @@ namespace _4_026_Stagisti
             "3",
             "4",
             "5"});
-            this.cmbClasse.Location = new System.Drawing.Point(121, 95);
+            this.cmbClasse.Location = new System.Drawing.Point(91, 77);
+            this.cmbClasse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbClasse.Name = "cmbClasse";
-            this.cmbClasse.Size = new System.Drawing.Size(121, 24);
+            this.cmbClasse.Size = new System.Drawing.Size(92, 21);
             this.cmbClasse.TabIndex = 7;
             // 
             // cmbAzienda
@@ -132,17 +140,19 @@ namespace _4_026_Stagisti
             "Azienda 1",
             "Azienda 2",
             "Azienda 3"});
-            this.cmbAzienda.Location = new System.Drawing.Point(361, 71);
+            this.cmbAzienda.Location = new System.Drawing.Point(271, 58);
+            this.cmbAzienda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbAzienda.Name = "cmbAzienda";
-            this.cmbAzienda.Size = new System.Drawing.Size(121, 24);
+            this.cmbAzienda.Size = new System.Drawing.Size(92, 21);
             this.cmbAzienda.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(265, 74);
+            this.label5.Location = new System.Drawing.Point(199, 60);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 17);
+            this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Azienda";
             // 
@@ -154,17 +164,19 @@ namespace _4_026_Stagisti
             "B",
             "C",
             "D"});
-            this.cmbSezione.Location = new System.Drawing.Point(361, 11);
+            this.cmbSezione.Location = new System.Drawing.Point(271, 9);
+            this.cmbSezione.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbSezione.Name = "cmbSezione";
-            this.cmbSezione.Size = new System.Drawing.Size(121, 24);
+            this.cmbSezione.Size = new System.Drawing.Size(92, 21);
             this.cmbSezione.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(265, 14);
+            this.label6.Location = new System.Drawing.Point(199, 11);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 17);
+            this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "Sezione";
             // 
@@ -176,41 +188,46 @@ namespace _4_026_Stagisti
             "MEC",
             "ELT",
             "LICEO"});
-            this.cmbSpec.Location = new System.Drawing.Point(361, 41);
+            this.cmbSpec.Location = new System.Drawing.Point(271, 33);
+            this.cmbSpec.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbSpec.Name = "cmbSpec";
-            this.cmbSpec.Size = new System.Drawing.Size(121, 24);
+            this.cmbSpec.Size = new System.Drawing.Size(92, 21);
             this.cmbSpec.TabIndex = 13;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(265, 44);
+            this.label7.Location = new System.Drawing.Point(199, 36);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 17);
+            this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "Spec.";
             // 
             // txtOre
             // 
-            this.txtOre.Location = new System.Drawing.Point(361, 101);
+            this.txtOre.Location = new System.Drawing.Point(271, 82);
+            this.txtOre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtOre.Name = "txtOre";
-            this.txtOre.Size = new System.Drawing.Size(121, 22);
+            this.txtOre.Size = new System.Drawing.Size(92, 20);
             this.txtOre.TabIndex = 15;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(265, 104);
+            this.label8.Location = new System.Drawing.Point(199, 84);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(32, 17);
+            this.label8.Size = new System.Drawing.Size(24, 13);
             this.label8.TabIndex = 14;
             this.label8.Text = "Ore";
             // 
             // btnInserisci
             // 
-            this.btnInserisci.Location = new System.Drawing.Point(28, 146);
+            this.btnInserisci.Location = new System.Drawing.Point(21, 119);
+            this.btnInserisci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInserisci.Name = "btnInserisci";
-            this.btnInserisci.Size = new System.Drawing.Size(214, 34);
+            this.btnInserisci.Size = new System.Drawing.Size(160, 28);
             this.btnInserisci.TabIndex = 16;
             this.btnInserisci.Text = "Inserisci";
             this.btnInserisci.UseVisualStyleBackColor = true;
@@ -218,9 +235,10 @@ namespace _4_026_Stagisti
             // 
             // btnRicerca
             // 
-            this.btnRicerca.Location = new System.Drawing.Point(268, 146);
+            this.btnRicerca.Location = new System.Drawing.Point(201, 119);
+            this.btnRicerca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRicerca.Name = "btnRicerca";
-            this.btnRicerca.Size = new System.Drawing.Size(214, 34);
+            this.btnRicerca.Size = new System.Drawing.Size(160, 28);
             this.btnRicerca.TabIndex = 17;
             this.btnRicerca.Text = "Ricerca";
             this.btnRicerca.UseVisualStyleBackColor = true;
@@ -229,43 +247,48 @@ namespace _4_026_Stagisti
             // dgvStudenti
             // 
             this.dgvStudenti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvStudenti.Location = new System.Drawing.Point(28, 198);
+            this.dgvStudenti.Location = new System.Drawing.Point(21, 161);
+            this.dgvStudenti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvStudenti.Name = "dgvStudenti";
             this.dgvStudenti.RowHeadersWidth = 51;
             this.dgvStudenti.RowTemplate.Height = 24;
-            this.dgvStudenti.Size = new System.Drawing.Size(454, 187);
+            this.dgvStudenti.Size = new System.Drawing.Size(340, 152);
             this.dgvStudenti.TabIndex = 18;
             // 
             // btnElimina
             // 
-            this.btnElimina.Location = new System.Drawing.Point(28, 419);
+            this.btnElimina.Location = new System.Drawing.Point(21, 340);
+            this.btnElimina.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnElimina.Name = "btnElimina";
-            this.btnElimina.Size = new System.Drawing.Size(214, 34);
+            this.btnElimina.Size = new System.Drawing.Size(160, 28);
             this.btnElimina.TabIndex = 19;
             this.btnElimina.Text = "Elimina";
             this.btnElimina.UseVisualStyleBackColor = true;
+            this.btnElimina.Click += new System.EventHandler(this.btnElimina_Click);
             // 
             // txtPosizione
             // 
-            this.txtPosizione.Location = new System.Drawing.Point(361, 431);
+            this.txtPosizione.Location = new System.Drawing.Point(271, 350);
+            this.txtPosizione.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPosizione.Name = "txtPosizione";
-            this.txtPosizione.Size = new System.Drawing.Size(121, 22);
+            this.txtPosizione.Size = new System.Drawing.Size(92, 20);
             this.txtPosizione.TabIndex = 21;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(265, 434);
+            this.label9.Location = new System.Drawing.Point(199, 353);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 17);
+            this.label9.Size = new System.Drawing.Size(52, 13);
             this.label9.TabIndex = 20;
             this.label9.Text = "Posizione";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 475);
+            this.ClientSize = new System.Drawing.Size(383, 386);
             this.Controls.Add(this.txtPosizione);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnElimina);
@@ -288,6 +311,7 @@ namespace _4_026_Stagisti
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

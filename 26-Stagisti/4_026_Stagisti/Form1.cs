@@ -61,7 +61,7 @@ namespace _4_026_Stagisti
 
         private void btnRicerca_Click(object sender, EventArgs e)
         {
-            string azienda = cmbAzienda.SelectedIndex.ToString();
+            string azienda = cmbAzienda.SelectedItem.ToString();
             int ore = elencoStudenti.oreAzienda(azienda);
 
             if (ore != 0)
@@ -73,6 +73,27 @@ namespace _4_026_Stagisti
             {
                 MessageBox.Show("Non è stata effettuata alcuna ora in " + azienda,
                     "information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void btnElimina_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtPosizione.Text == "")
+                {
+                    elencoStudenti.cancella();
+                }
+                else
+                {
+                    elencoStudenti.cancella(Convert.ToInt32(txtPosizione.Text));
+                }
+                MessageBox.Show("Cancellazione effettuata!");
+                elencoStudenti.VisualizzaDgv(dgvStudenti);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
             }
         }
     }
