@@ -8,10 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _28_Interfaccia_comparabile.Properties
+
+namespace _4_030_PrimoEsemioDelegate.Properties
 {
-
-
     /// <summary>
     ///   Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
     /// </summary>
@@ -44,7 +43,7 @@ namespace _28_Interfaccia_comparabile.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_28_Interfaccia_comparabile.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_4_030_PrimoEsemioDelegate.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("28-Interfaccia comparabile")]
+[assembly: AssemblyTitle("4_029_Uso interfaccia iComparer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("28-Interfaccia comparabile")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyProduct("4_029_Uso interfaccia iComparer")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("9597ff2a-5614-4d7f-b99e-7c1c4f815ae8")]
+[assembly: Guid("8df7f60a-6242-4e88-9033-faec9b3567ee")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
