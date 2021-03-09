@@ -1,5 +1,5 @@
 ﻿
-namespace _4_030_PrimoEsemioDelegate
+namespace _30_delegate01
 {
     partial class Form1
     {
@@ -36,10 +36,10 @@ namespace _4_030_PrimoEsemioDelegate
             // 
             // btnSomma
             // 
-            this.btnSomma.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSomma.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomma.Location = new System.Drawing.Point(13, 13);
             this.btnSomma.Name = "btnSomma";
-            this.btnSomma.Size = new System.Drawing.Size(63, 52);
+            this.btnSomma.Size = new System.Drawing.Size(66, 52);
             this.btnSomma.TabIndex = 0;
             this.btnSomma.Text = "+";
             this.btnSomma.UseVisualStyleBackColor = true;
@@ -47,10 +47,10 @@ namespace _4_030_PrimoEsemioDelegate
             // 
             // btnProdotto
             // 
-            this.btnProdotto.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProdotto.Location = new System.Drawing.Point(82, 13);
+            this.btnProdotto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProdotto.Location = new System.Drawing.Point(85, 12);
             this.btnProdotto.Name = "btnProdotto";
-            this.btnProdotto.Size = new System.Drawing.Size(63, 52);
+            this.btnProdotto.Size = new System.Drawing.Size(66, 52);
             this.btnProdotto.TabIndex = 1;
             this.btnProdotto.Text = "*";
             this.btnProdotto.UseVisualStyleBackColor = true;
@@ -58,19 +58,20 @@ namespace _4_030_PrimoEsemioDelegate
             // 
             // btnSottrazione
             // 
-            this.btnSottrazione.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSottrazione.Location = new System.Drawing.Point(151, 12);
+            this.btnSottrazione.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSottrazione.Location = new System.Drawing.Point(157, 13);
             this.btnSottrazione.Name = "btnSottrazione";
-            this.btnSottrazione.Size = new System.Drawing.Size(63, 52);
+            this.btnSottrazione.Size = new System.Drawing.Size(66, 52);
             this.btnSottrazione.TabIndex = 2;
             this.btnSottrazione.Text = "-";
             this.btnSottrazione.UseVisualStyleBackColor = true;
+            this.btnSottrazione.Click += new System.EventHandler(this.btnSottrazione_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 107);
+            this.ClientSize = new System.Drawing.Size(239, 84);
             this.Controls.Add(this.btnSottrazione);
             this.Controls.Add(this.btnProdotto);
             this.Controls.Add(this.btnSomma);

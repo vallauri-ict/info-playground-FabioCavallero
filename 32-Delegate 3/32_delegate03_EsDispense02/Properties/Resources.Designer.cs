@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace _4_030_PrimoEsemioDelegate.Properties
+namespace _32_delegate03_EsDispense02.Properties
 {
     /// <summary>
     ///   Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
@@ -43,7 +43,7 @@ namespace _4_030_PrimoEsemioDelegate.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_4_030_PrimoEsemioDelegate.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_32_delegate03_EsDispense02.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

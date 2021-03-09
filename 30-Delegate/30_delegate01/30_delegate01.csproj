@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0A7CAE1-99BF-45D5-B6DD-1F9E06E3002A}</ProjectGuid>
+    <ProjectGuid>{01EF01AA-F82F-49BB-8307-C74835C98069}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_4_030_PrimoEsemioDelegate</RootNamespace>
-    <AssemblyName>4_030_PrimoEsemioDelegate</AssemblyName>
+    <RootNamespace>_30_delegate01</RootNamespace>
+    <AssemblyName>30_delegate01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

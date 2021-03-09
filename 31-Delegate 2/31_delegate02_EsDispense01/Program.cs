@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _4_030_PrimoEsemioDelegate
+namespace _31_delegate02_EsDispense01
 {
     static class Program
     {
