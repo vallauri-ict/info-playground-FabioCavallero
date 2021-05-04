@@ -2,7 +2,7 @@
 
 _Stud. Fabio Cavallero_
 
-###### Esercizi di informatica con programmazione in:
+###### Esercizi di informatica svolti in classe con programmazione in:
 
 C# ed SQL.
 
