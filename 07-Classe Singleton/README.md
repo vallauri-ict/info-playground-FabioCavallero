@@ -2,4 +2,6 @@
 
 _Stud. Fabio Cavallero_
 
-### Primo esercizio sull'utilizzo di una classe Singleton
+###### Classe Singleton
+
+Primo esercizio sull'utilizzo di una classe Singleton.

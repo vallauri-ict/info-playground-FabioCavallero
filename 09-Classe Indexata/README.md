@@ -2,4 +2,6 @@
 
 _Stud. Fabio Cavallero_
 
-### Primo esercizio sull'utilizzo di una classe indexata
+###### Classe indexata
+
+Creazione di unas classe Index per la gestione di vettore di stringhe con una inizializzazione nel costruttore.
