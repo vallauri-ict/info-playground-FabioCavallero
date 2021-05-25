@@ -1,4 +1,4 @@
-# tpsi-playground-fabio-cavallero
+# info-playground-fabio-cavallero
 
 _Stud. Fabio Cavallero_
 
