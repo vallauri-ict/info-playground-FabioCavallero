@@ -2,4 +2,5 @@
 
 _Stud. Fabio Cavallero_
 
-### Primo esercizio sull'utilizzo dei dictionary
+###### Dictionary
+Esercizio dove è stato utilizzato per la prima volta dictionary. E' una sorta di proseguo dell'esercizio 11, in quanto mantiene la stessa struttura a livello di progettazione grafica.
