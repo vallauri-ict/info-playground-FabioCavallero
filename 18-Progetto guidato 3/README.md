@@ -1,3 +1,4 @@
 # info-playground-fabio-cavallero
 
-### Ereditarietà - terzo esercizio
+### Esercizio guidato 3: ereditarietà pt.3
+Esercizio sull'ereditarietà per verificare le differenze tra il passaggio degli oggetti per valore, tramite ref e tramite out.
